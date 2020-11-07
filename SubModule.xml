@@ -1,0 +1,28 @@
+<Module>
+     <Name value="LootLord"/>
+     <Id value="LootLord"/>
+     <Version value="v2.0.0"/>
+     <DefaultModule value="false"/>
+     <SingleplayerModule value="true"/>
+     <MultiplayerModule value="false"/>
+     <Official value="false"/>
+     <DependedModules>
+         <DependedModule Id="Native"/>
+         <DependedModule Id="SandBoxCore"/>
+         <DependedModule Id="Sandbox"/>
+         <DependedModule Id="CustomBattle"/>
+         <DependedModule Id="StoryMode" />
+     </DependedModules>
+     <SubModules>
+         <SubModule>
+             <Name value="LootLord"/>
+             <DLLName value="LootLord.dll"/>
+             <SubModuleClassType value="LootLord.SubModule"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+         </SubModule>
+     </SubModules>
+     <Xmls/>
+ </Module>
